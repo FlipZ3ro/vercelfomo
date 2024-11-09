@@ -7,7 +7,7 @@ import { Card, CardHeader, CardBody, CardFooter, Button, Input, Select, SelectIt
 import { Loader2, ArrowDownUp, Search, Scroll } from "lucide-react"
 import { Connection, VersionedTransaction, PublicKey } from "@solana/web3.js"
 
-const jupiterApi = createJupiterApiClient({ basePath: "https://superswap.fomo3d.fun" })
+const jupiterApi = createJupiterApiClient({ basePath: "https://fomo3d.me" })
 
 interface TokenInfo {
   address: string;
