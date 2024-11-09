@@ -138,7 +138,7 @@ export default function SingleTokenSidebar({
 		'65YAWs68bmR2RpQrs2zyRNTum2NRrdWzUfUTew9kydN9',
 		'Ei1CgRq6SMB8wQScEKeRMGYkyb3YmRTaej1hpHcqAV9r',
 	  ];
-	const jupiterApi = createJupiterApiClient({ basePath: "https://superswap.fomo3d.fun" })
+	const jupiterApi = createJupiterApiClient({ basePath: "https://fomo3d.me" })
     // Buy function
     const handleBuy = async () => {
         if (!aw) return null;
