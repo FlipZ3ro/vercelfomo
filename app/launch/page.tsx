@@ -6041,7 +6041,7 @@ const [error, setError] = useState<string | null>(null);
 	useEffect(() => {
 		const fetchRandomTokens = async () => {
 			try {
-				const response = await fetch('https://superswap.fomo3d.fun/mints');
+				const response = await fetch('https://fomo3d.me/mints');
 				const data = await response.json();
 				let mints = data.mints;
 			
