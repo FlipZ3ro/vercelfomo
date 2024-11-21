@@ -23,7 +23,7 @@ import { mplToolbox } from "@metaplex-foundation/mpl-toolbox";
 import { BN } from "bn.js";
 import { createAssociatedTokenAccountInstruction, getAssociatedTokenAddressSync, TOKEN_PROGRAM_ID } from "@solana/spl-token";
 const IDL = {
-	"address": "65YAWs68bmR2RpQrs2zyRNTum2NRrdWzUfUTew9kydN9",
+	"address": "9pR79Lqe6wDNjag3v8MeVYUostoXjY2ognTydor6AtEZ",
 	"metadata": {
 	  "name": "curve_launchpad",
 	  "version": "0.1.0",
