@@ -7,7 +7,7 @@ import { Card, CardHeader, CardBody, CardFooter, Button, Input, Select, SelectIt
 import { Loader2, ArrowDownUp, Search, Scroll } from "lucide-react"
 import { Connection, VersionedTransaction, PublicKey } from "@solana/web3.js"
 
-const jupiterApi = createJupiterApiClient({ basePath: "https://fomo3d.me" })
+const jupiterApi = createJupiterApiClient({ basePath: "http://143.110.238.107:8888" })
 
 interface TokenInfo {
   address: string;
